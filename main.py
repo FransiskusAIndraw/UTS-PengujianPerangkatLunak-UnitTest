@@ -7,5 +7,6 @@ app.include_router(user_router)
 @app.get("/")
 def read_root():
     return {"message": "Aplikasi FastAPI berjalan dengan sukses!"}
+#uvicorn main:app --reload
 
 app.include_router(user_router)

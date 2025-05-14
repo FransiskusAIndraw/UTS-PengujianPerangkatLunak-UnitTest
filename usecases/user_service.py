@@ -9,6 +9,7 @@ class UserService:
     def create_user(self, user: User) -> User:
         return self.repo.create(user)
 
+
     def get_users(self) -> list[User]:
         return self.repo.get_all()
 

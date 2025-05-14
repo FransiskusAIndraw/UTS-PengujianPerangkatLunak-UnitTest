@@ -6,5 +6,5 @@ class User(BaseModel):
     name: str
     email: str
 
-
-
+    def __str__(self):
+        return f"User(id={self.id}, name={self.name}, email={self.email})"
