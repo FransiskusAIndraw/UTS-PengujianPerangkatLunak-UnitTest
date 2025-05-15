@@ -1,0 +1,6 @@
+2025-05-14 21:14:05,315 - INFO - [CREATE] User ditambahkan: ID=1, Name=string, Email=string
+2025-05-14 21:14:30,314 - WARNING - [READ] User dengan ID=0 tidak ditemukan
+2025-05-14 21:14:48,234 - INFO - [READ] User ditemukan: ID=1
+2025-05-14 21:15:19,263 - WARNING - [UPDATE] Gagal update user ID=12 (tidak ditemukan)
+2025-05-14 21:15:26,561 - INFO - [UPDATE] User ID=1 diupdate: name=string, email=strinstreengg
+2025-05-14 21:15:44,042 - INFO - [DELETE] User dengan ID=1 berhasil dihapus
