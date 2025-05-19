@@ -4,3 +4,12 @@
 2025-05-14 21:15:19,263 - WARNING - [UPDATE] Gagal update user ID=12 (tidak ditemukan)
 2025-05-14 21:15:26,561 - INFO - [UPDATE] User ID=1 diupdate: name=string, email=strinstreengg
 2025-05-14 21:15:44,042 - INFO - [DELETE] User dengan ID=1 berhasil dihapus
+2025-05-19 13:28:26,604 - INFO - [CREATE] User ditambahkan: ID=1, Name=David, Email=david@example.com
+2025-05-19 13:28:27,028 - INFO - [CREATE] User ditambahkan: ID=1, Name=ToDelete, Email=del@example.com
+2025-05-19 13:28:27,071 - INFO - [DELETE] User dengan ID=1 berhasil dihapus
+2025-05-19 13:28:27,075 - INFO - [CREATE] User ditambahkan: ID=1, Name=Eve, Email=eve@example.com
+2025-05-19 13:28:27,077 - INFO - [READ ALL] Total user: 1
+2025-05-19 13:28:27,079 - INFO - [CREATE] User ditambahkan: ID=1, Name=Frank, Email=frank@example.com
+2025-05-19 13:28:27,091 - INFO - [READ] User ditemukan: ID=1
+2025-05-19 13:28:27,093 - INFO - [CREATE] User ditambahkan: ID=1, Name=Updatable, Email=up@example.com
+2025-05-19 13:28:27,098 - INFO - [UPDATE] User ID=1 diupdate: name=Updated, email=upd@example.com

@@ -2,13 +2,13 @@ import logging
 from fastapi import FastAPI
 from presentation.user_routes import router as user_router
 
-# Konfigurasi logging global
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler("log.txt"),     # log disimpan ke file
-        logging.StreamHandler()             # log juga muncul di terminal
+        logging.FileHandler("log.txt"),     
+        logging.StreamHandler()            
     ]
 )
 

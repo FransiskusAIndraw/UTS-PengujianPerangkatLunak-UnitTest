@@ -11,7 +11,7 @@ router = APIRouter()
 
 @router.post("/users", response_model=UserSchema)
 def add_user(user: UserSchema):
-    user_entity = UserEntity(id=None, name=user.name, email=user.email)
+    user_entity = User(id=None, name=user.name, email=user.email)
     created_user = service.create_user(user_entity)
     return UserSchema(**created_user.dict)
 
@@ -29,7 +29,7 @@ def read_user(user_id: int):
 
 @router.put("/users/{user_id}", response_model=UserSchema)
 def edit_user(user_id: int, user: UserSchema):
-    updated_user = service.update_user(user_id, UserEntity(id=user_id, name=user.name, email=user.email))
+    updated_user = service.update_user(user_id, User(id=user_id, name=user.name, email=user.email))
     if not updated_user:
         raise HTTPException(status_code=404, detail="User not found")
     return UserSchema(**updated_user.dict)
